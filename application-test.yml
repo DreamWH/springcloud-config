@@ -17,6 +17,6 @@ logging:
     org.springframework: info
     com.hikvision: info
 ruoyi:
-  profile: /home/ruoyi/uploadPath/wangjun
+  profile: ruoyi/uploadPath/wangjun
 gbs:
   host: 13.7.10.17:10000
