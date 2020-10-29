@@ -2,26 +2,13 @@ spring:
   datasource:
     druid:
       master:
-        url: jdbc:mysql://192.168.0.79:3306/zhgd_sp_hjc_app?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+        url: jdbc:mysql://12.18.1.7:3306/zhgd?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
         username: root
-        password: cplh123456
+        password: djbcdjbcucds
   redis:
-    host: 192.168.0.79
+    host: 12.18.1.79
     port: 6379
-    password: licengjing
-
-nginxIp: 122.112.183.207
-nginxPushIp: 122.112.183.207
-nginxRtmpPort: 1949
-nginxHlsPort: 5842
-nginxPrefix: /hls/
-videoPath: D:/video/ #手动录像视频存放路径
-videoRequestPath: /video #视频访问路径
-videoFileSuffix: .wmv #视频文件自定义后缀
-connectZYGDIsEnable: true #主动调中油管道同步数据接口是否开启
-connectZYGD: http://192.168.10.20:8920/api/videoBasic/extraCameraData #主动调中油管道同步数据接口
-connectGJGWIsEnable: true #主动调国家管网同步数据接口是否开启
-connectGJGW: http://192.168.10.20:8851/api/videoBasic/extraCameraData #主动调国家管网同步数据接口
+    password: hn
 server:
   port: 9000
 logging:
@@ -32,4 +19,4 @@ logging:
 ruoyi:
   profile: /home/ruoyi/uploadPath
 gbs:
-  host: 123.57.160.178:10000
+  host: 13.7.10.17:10000
