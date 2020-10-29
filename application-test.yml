@@ -10,13 +10,13 @@ spring:
     port: 6379
     password: hn
 server:
-  port: 9000
+  port: 3355
 logging:
   level:
     com.ruoyi: info
     org.springframework: info
     com.hikvision: info
 ruoyi:
-  profile: /home/ruoyi/uploadPath
+  profile: /home/ruoyi/uploadPath/wangjun
 gbs:
   host: 13.7.10.17:10000
