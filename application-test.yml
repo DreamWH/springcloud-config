@@ -9,8 +9,6 @@ spring:
     host: 12.18.1.79
     port: 6379
     password: hn
-server:
-  port: 3355
 logging:
   level:
     com.ruoyi: info
