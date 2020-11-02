@@ -17,4 +17,4 @@ logging:
 ruoyi:
   profile: ruoyi/uploadPath/wangjun
 gbs:
-  host: 13.7.10.17:3
+  host: 13.7.10.17:4
